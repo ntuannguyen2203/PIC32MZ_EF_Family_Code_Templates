@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <project>                                  
-  <executable name="dist/default/production/Timers.X.production.elf">                 
+  <executable name="dist/default/production/GPIO_TOGGLE.X.production.elf">                 
     <memory name="program">                 
       <units>bytes</units>                 
       <length>2098304</length>                 
-      <used>8244</used>                     
-      <free>2090060</free>                     
+      <used>3200</used>                     
+      <free>2095104</free>                     
     </memory>                              
     <memory name="data">              
       <units>bytes</units>                 
       <length>524288</length>                 
-      <used>156</used>                     
-      <free>524132</free>                     
+      <used>36</used>                     
+      <free>524252</free>                     
     </memory>                              
   </executable>                            
 </project>                                 

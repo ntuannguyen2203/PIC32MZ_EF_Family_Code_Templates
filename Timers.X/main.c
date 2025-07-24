@@ -3,6 +3,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <sys/attribs.h>
+#define CLOCK_RATE 16250000/10 //hz
 void delay(uint32_t time)
 {
     while(time--);
@@ -13,7 +14,7 @@ void __ISR(_TIMER_1_VECTOR, IPL7AUTO) TIM1_ISR(void) {
     //   LATHbits.LATH1 ^=1;
     LATHbits.LATH0 ^=1;
     LATHbits.LATH1 ^=1;
-    LATJbits.LATJ3 ^=1;
+//    LATJbits.LATJ3 ^=1;
     IFS0bits.T1IF = 0; //clear flag
     counter++;
 }
@@ -55,10 +56,15 @@ int main(void)
     __builtin_enable_interrupts();   // disable interrupts
 
     printf("Hello");
-
+    int tick_count;
     while(1)
     {
-
+        tick_count++;
+        if(tick_count >= CLOCK_RATE)
+        {
+            LATJbits.LATJ3 ^= 1; // Toggle pin J1
+            tick_count = 0; // Reset tick count
+        }
 
     }
 

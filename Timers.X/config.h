@@ -99,5 +99,5 @@
 // #pragma FPBDIV  DIV_1
 /*** BF1SEQ0 ***/
 
-#pragma config TSEQ =       0xffff
-#pragma config CSEQ =       0x0
+//#pragma config TSEQ =       0xffff
+//#pragma config CSEQ =       0x0
