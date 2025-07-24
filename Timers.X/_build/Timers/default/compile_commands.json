@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default",
+  "command": "c:\\PROGRA~1\\Microchip\\xc32\\v4.60\\bin\\xc32-gcc.exe -DXPRJ_default=default -D__DEBUG -D__MPLAB_DEBUGGER_SIMULATOR=1 -ID:/2_VIS/RD/PIC/Timers.X/cmake/Timers/default/../../.. -x c -g -x c -c -mprocessor=32MZ2048EFM144 -fno-common -mdfp=C:/Users/ntuan/.mchp_packs/Microchip/PIC32MZ-EF_DFP/1.5.173 -o CMakeFiles\\Timers_default_default_XC32_compile.dir\\D_\\2_VIS\\RD\\PIC\\Timers.X\\main.c.o -c D:\\2_VIS\\RD\\PIC\\Timers.X\\main.c",
+  "file": "D:\\2_VIS\\RD\\PIC\\Timers.X\\main.c",
+  "output": "CMakeFiles\\Timers_default_default_XC32_compile.dir\\D_\\2_VIS\\RD\\PIC\\Timers.X\\main.c.o"
+}
+]

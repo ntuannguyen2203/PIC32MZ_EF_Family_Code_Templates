@@ -1,0 +1,75 @@
+{
+    "importedFrom": "./",
+    "version": "1.5",
+    "configurations": [
+        {
+            "name": "default",
+            "id": "conf1",
+            "device": "PIC32MZ2048EFM144",
+            "imageType": "application",
+            "imagePath": "./out/Timers/default.elf",
+            "toolProperties": "default-tool",
+            "tool": "Simulator",
+            "packs": [
+                {
+                    "name": "PIC32MZ-EF_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.5.173"
+                }
+            ],
+            "fileSet": "Project files",
+            "toolchain": "default-XC32",
+            "preBuildSteps": [],
+            "postBuildSteps": []
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-XC32",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc32@4.60",
+            "properties": {
+                "assembler.extra-include-directories-for-preprocessor": [
+                    "."
+                ],
+                "assembler.extra-include-directories-for-assembler": [
+                    "."
+                ],
+                "compiler.extra-include-directories": [
+                    "."
+                ],
+                "compiler++.extra-include-directories": [
+                    "."
+                ],
+                "linker.extra-lib-directories": [
+                    "."
+                ],
+                "linker.fill-flash-options-inc-const": "1",
+                "linker.map-file": "",
+                "linker.report-memory-usage": false,
+                "compiler.toplevel-reordering": "",
+                "compiler++.toplevel-reordering": "",
+                "archiver.additional-options-chop-files": false,
+                "linker.additional-options-use-response-files": false,
+                "linker.exclude-floating-point-library": false,
+                "linker.fill-flash-options-what": "0",
+                "linker.kseg-origin": "",
+                "global.legacy-libc": true
+            }
+        },
+        {
+            "name": "default-tool",
+            "type": "tool",
+            "properties": {}
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "Project files",
+            "files": [
+                "*"
+            ],
+            "encoding": "ISO-8859-1"
+        }
+    ]
+}

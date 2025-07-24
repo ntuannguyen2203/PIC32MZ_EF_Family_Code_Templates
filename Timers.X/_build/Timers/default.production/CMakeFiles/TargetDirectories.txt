@@ -1,0 +1,5 @@
+D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default.production/CMakeFiles/Timers_default_default_XC32_compile.dir
+D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default.production/CMakeFiles/default-production.elf.dir
+D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default.production/CMakeFiles/Timers_default_Bin2Hex.dir
+D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default.production/CMakeFiles/edit_cache.dir
+D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default.production/CMakeFiles/rebuild_cache.dir

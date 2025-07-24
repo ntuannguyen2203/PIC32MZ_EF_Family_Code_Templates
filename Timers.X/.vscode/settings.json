@@ -1,0 +1,8 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=${workspaceRoot}\\_build\\Timers\\default"
+    ],
+    "mplab.clangd.path": "c:\\Program Files\\Microchip\\xc32\\v4.60\\bin\\xc32-clangd.exe",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "cmake.sourceDirectory": "D:/2_VIS/RD/PIC/Timers.X/cmake/Timers/default"
+}

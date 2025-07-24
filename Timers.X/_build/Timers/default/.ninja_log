@@ -1,0 +1,6 @@
+# ninja log v7
+5	307	7748588487376588	CMakeFiles/Timers_default_default_XC32_compile.dir/D_/2_VIS/RD/PIC/Timers.X/main.c.o	1f5a5160f0c2ce70
+307	906	7748588490403130	D:/2_VIS/RD/PIC/Timers.X/out/Timers/default.elf	ed447dc65c7bd8ff
+906	937	7748588496384144	CMakeFiles/Timers_default_Bin2Hex	ad1d643567444691
+906	937	7748588496384144	D:/2_VIS/RD/PIC/Timers.X/out/Timers/default.hex	ad1d643567444691
+906	937	7748588496384144	D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default/CMakeFiles/Timers_default_Bin2Hex	ad1d643567444691
