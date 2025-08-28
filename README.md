@@ -29,7 +29,7 @@ All examples are tested with:
 | Example Name       | Description                              | Type         |
 |--------------------|------------------------------------------|--------------|
 | `gpio_toggle`      | Toggle an LED via GPIO output            | Bare-metal   |
-| `uart_echo`        | Echo UART data via interrupt             | MCC + XC32   |
+| `uart_echo`        | Echo UART data via interrupt             | Bare-metal   |
 | `timer_interrupt`  | Periodic interrupt using Timer1          | Bare-metal   |
 | `adc_read`         | Read analog value using ADC1             | MCC + Polling|
 | `i2c_master`       | Communicate with I2C slave (e.g. EEPROM) | Bare-metal   |
