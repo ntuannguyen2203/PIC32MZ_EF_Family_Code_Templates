@@ -44,4 +44,4 @@ This application demonstrates interrupt-driven UART communication using UART2 on
 Built using:
 - MPLAB X IDE
 - XC32 Compiler v4.60
--
+- PIC32MZ-EF_DFP v1.5.173
