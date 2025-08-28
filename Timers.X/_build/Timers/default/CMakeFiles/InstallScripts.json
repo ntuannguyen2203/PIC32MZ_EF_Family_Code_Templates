@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default/cmake_install.cmake"
+		"D:/2_VIS/RD/PIC/PIC32MZ_EF_Family_Code_Templates/Timers.X/_build/Timers/default/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

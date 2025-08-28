@@ -1,4 +1,4 @@
-# Install script for directory: D:/2_VIS/RD/PIC/Timers.X/cmake/Timers/default
+# Install script for directory: D:/2_VIS/RD/PIC/PIC32MZ_EF_Family_Code_Templates/Timers.X/cmake/Timers/default
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default/install_local_manifest.txt"
+  file(WRITE "D:/2_VIS/RD/PIC/PIC32MZ_EF_Family_Code_Templates/Timers.X/_build/Timers/default/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/2_VIS/RD/PIC/PIC32MZ_EF_Family_Code_Templates/Timers.X/_build/Timers/default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

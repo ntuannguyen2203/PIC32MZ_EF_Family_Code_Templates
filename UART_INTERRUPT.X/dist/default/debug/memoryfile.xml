@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <project>                                  
-  <executable name="dist/default/debug/GPIO_TOGGLE.X.debug.elf">                 
+  <executable name="dist/default/debug/UART_INTERRUPT.X.debug.elf">                 
     <memory name="program">                 
       <units>bytes</units>                 
       <length>2098304</length>                 
-      <used>3212</used>                     
-      <free>2095092</free>                     
+      <used>11108</used>                     
+      <free>2087196</free>                     
     </memory>                              
     <memory name="data">              
       <units>bytes</units>                 
       <length>525184</length>                 
-      <used>1828</used>                     
-      <free>523356</free>                     
+      <used>2215</used>                     
+      <free>522969</free>                     
     </memory>                              
   </executable>                            
 </project>                                 

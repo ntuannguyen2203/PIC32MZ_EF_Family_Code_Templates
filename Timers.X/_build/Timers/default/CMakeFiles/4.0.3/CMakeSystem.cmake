@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Windows")
 set(CMAKE_HOST_SYSTEM_VERSION "10.0.19045")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "")
 
-include("D:/2_VIS/RD/PIC/Timers.X/cmake/Timers/default/.generated/toolchain.cmake")
+include("D:/2_VIS/RD/PIC/PIC32MZ_EF_Family_Code_Templates/Timers.X/cmake/Timers/default/.generated/toolchain.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

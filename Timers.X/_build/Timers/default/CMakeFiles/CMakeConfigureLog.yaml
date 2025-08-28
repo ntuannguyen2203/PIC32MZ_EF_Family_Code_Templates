@@ -31,7 +31,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default/CMakeFiles/4.0.3/CompilerIdC/a.out
+        D:/2_VIS/RD/PIC/PIC32MZ_EF_Family_Code_Templates/Timers.X/_build/Timers/default/CMakeFiles/4.0.3/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -55,7 +55,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        D:/2_VIS/RD/PIC/Timers.X/_build/Timers/default/CMakeFiles/4.0.3/CompilerIdCXX/a.out
+        D:/2_VIS/RD/PIC/PIC32MZ_EF_Family_Code_Templates/Timers.X/_build/Timers/default/CMakeFiles/4.0.3/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"

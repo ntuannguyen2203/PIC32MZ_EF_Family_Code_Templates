@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\ntuan\.mplab\app-finder\apps\cmake\v4.0.3\cmake-4.0.3-windows-x86_64\bin\cmake.exe --regenerate-during-build -SD:\2_VIS\RD\PIC\Timers.X\cmake\Timers\default -BD:\2_VIS\RD\PIC\Timers.X\_build\Timers\default
+  command = C:\Users\ntuan\.mplab\app-finder\apps\cmake\v4.0.3\cmake-4.0.3-windows-x86_64\bin\cmake.exe --regenerate-during-build -SD:\2_VIS\RD\PIC\PIC32MZ_EF_Family_Code_Templates\Timers.X\cmake\Timers\default -BD:\2_VIS\RD\PIC\PIC32MZ_EF_Family_Code_Templates\Timers.X\_build\Timers\default
   description = Re-running CMake...
   generator = 1
 
