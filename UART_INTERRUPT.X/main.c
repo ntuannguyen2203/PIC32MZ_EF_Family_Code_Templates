@@ -13,10 +13,11 @@ long _sys_ticks = 0;
 long pre_sys_ticks = 0;
 int _write(int file, const void *ptr, size_t len)
 {
+    // for use printf
     const char* data = (const char*) ptr;
     for (size_t i = 0; i < len; i++) {
-        while (U2STAbits.UTXBF);   // ??i buffer s?n sàng
-        U2TXREG = data[i];         // G?i t?ng ký t?
+        while (U2STAbits.UTXBF);   
+        U2TXREG = data[i];         
     }
     return len;
 }

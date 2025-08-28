@@ -3,7 +3,6 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <sys/attribs.h>
-#define CLOCK_RATE 16250000/10 //hz
 void delay(uint32_t time)
 {
     while(time--);
@@ -39,7 +38,7 @@ void config_Timer1(void)
     // 01 = 1:8 prescale value
     // 00 = 1:1 prescale value`
     TMR1 = 0; //clear timer1    
-    PR1 = 63476; //PR1 = 12499, 1kHz Timer     
+    PR1 = 63476;   
     IPC1bits.T1IP = 7; //priority 7
     IFS0bits.T1IF = 0; //clear flag
     IEC0bits.T1IE = 1; //enable interrupt    
@@ -55,16 +54,9 @@ int main(void)
     PMD4 &=0;
     __builtin_enable_interrupts();   // disable interrupts
 
-    printf("Hello");
     int tick_count;
     while(1)
     {
-        tick_count++;
-        if(tick_count >= CLOCK_RATE)
-        {
-            LATJbits.LATJ3 ^= 1; // Toggle pin J1
-            tick_count = 0; // Reset tick count
-        }
 
     }
 
